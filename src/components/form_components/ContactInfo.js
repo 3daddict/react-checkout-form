@@ -3,7 +3,7 @@ import { Col, Row, Form, FormGroup, Input, Label } from "reactstrap";
 import Toggle from '../Toggle';
 import CountryOptions from './input_options/countryOptions';
 import StateOptions from './input_options/stateOptions';
-import PlusIcon from '../../assets/images/_ionicons_svg_md-add.svg';
+import PlusIcon from '../../assets/images/_ionicons_svg_md-add.png';
 
 export default class FormContactInfo extends React.Component {
   render() {

@@ -2,6 +2,7 @@
   "name": "react-checkout-form",
   "version": "0.0.1",
   "private": false,
+  "homepage": "https://3daddict.github.io/react-checkout-form",
   "dependencies": {
     "react": "^16.7.0",
     "react-dom": "^16.7.0",

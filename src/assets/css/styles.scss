@@ -65,7 +65,11 @@ h6 {
 
 p {
     font-family: $font-text;
-    font-size: calc(0.7rem + 0.6vw);
+    font-size: 16px;
+}
+
+.p-xs {
+    font-size: 14px;
 }
 
 //input
@@ -85,16 +89,39 @@ p {
         vertical-align: middle;
         max-width: 15px;
     }
-    .address2-text {
+    .shipping-methods-container {
+        margin-top: 25px;
         p {
             font-size: 14px;
         }
-        
     }
+    
+
 }
 
 .right-col-container {
     background-color: #eee;
+    .cart-details-container {
+        h5, h6, p, a {
+            font-size: 14px;
+        }
+        .media {
+            position: relative;
+            max-width: 3.5em;
+        }
+        .media-count {
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: $mint-light;
+            color: #fff;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            text-align: center;
+            box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 4px 0px ;
+        }
+    }
 }
 
 .footer {

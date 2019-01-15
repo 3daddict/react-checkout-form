@@ -33,7 +33,7 @@ export default class FormContactInfo extends React.Component {
             {({ on, off, toggle }) => (
             <div className="toggle-container address2-text">
                 {on && <Input type="text" name="co_address2" id="coAddress2" placeholder="Apartment, suite, etc. (optional)" />}
-                {off && <div onClick={toggle}><p><img className="toggle-ico" src={PlusIcon} alt="expand icon"/> Add Address line 2</p></div>}
+                {off && <div onClick={toggle}><p className="p-xs"><img className="toggle-ico" src={PlusIcon} alt="expand icon"/> Add Address line 2</p></div>}
             </div>
             )}
             </Toggle>

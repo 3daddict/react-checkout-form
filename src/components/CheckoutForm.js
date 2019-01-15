@@ -6,6 +6,7 @@ import Payment from './form_components/Payment';
 import Billing from './form_components/Billing';
 
 import CartDetails from './form_components/CartDetails';
+import InfoReel from './form_components/InfoReel';
 
 class CheckoutForm extends Component {
 	constructor(props) {
@@ -36,6 +37,7 @@ class CheckoutForm extends Component {
                     </Col>
                     <Col className="right-col-container pb-4" md="6">
                         <CartDetails data={this.state.data} />
+                        <InfoReel />
                     </Col>
                 </Row>
             </Container>

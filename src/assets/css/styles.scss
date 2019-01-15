@@ -186,6 +186,43 @@ p {
             box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 4px 0px ;
         }
     }
+    
+    .inforeel-container {
+        p {
+            font-size: 0.9em;
+        }
+        .title-p{
+            margin-bottom: 0;
+        }
+        .co-badge-container {
+            max-width: 80px;
+            padding: 0;
+            img {
+                margin-top: 10px;
+                width: 100%;
+            }
+        }
+    }
+    
+    .review-container {
+        .star-rate {
+            display: block;
+            margin: -4px 0;
+        }
+        .fa-star {
+            color: #FFC107;
+            font-size: 0.8em;
+        }
+        .co-verified-buyer {
+            span {
+                font-size: 0.8em
+            }
+        }
+    }
+    .avatar-container {
+        max-width: 150px;
+    }
+    
 }
 
 .footer {

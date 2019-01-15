@@ -7,8 +7,6 @@ class countryOptions extends React.Component {
 			<Input className="custom-select" type="select" name="coSelectCountry" id="coCountry">
                 <option data-code="US" defaultValue="selected" value="United States">United States</option>
                 <option data-code="CA" value="Canada">Canada</option>
-                <option data-code="AU" value="Australia">Australia</option>
-                <option data-code="NG" value="Nigeria">Nigeria</option>
                 <option disabled="disabled" value="---">---</option>
                 <option data-code="AF" value="Afghanistan">Afghanistan</option>
                 <option data-code="AX" value="Aland Islands">Åland Islands</option>

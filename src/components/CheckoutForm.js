@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Col, Row } from "reactstrap";
+import ContactInfo from './form_components/ContactInfo';
 
 class CheckoutForm extends Component {
 	constructor(props) {
@@ -16,7 +17,7 @@ class CheckoutForm extends Component {
             <Container>
                 <Row>
                     <Col className="left-col-container" md="6">
-                        Column 1
+                        <ContactInfo />
                     </Col>
                     <Col className="right-col-container" md="6">
                         Column 2

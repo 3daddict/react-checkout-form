@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Row, Form, FormGroup, Input, Label } from "reactstrap";
+import { Col, Row, Form, FormGroup, Input, Label, Button, ButtonGroup } from "reactstrap";
 import Toggle from '../Toggle';
 import CountryOptions from './input_options/countryOptions';
 import StateOptions from './input_options/stateOptions';
@@ -63,7 +63,11 @@ export default class FormContactInfo extends React.Component {
         </Row>
 		<FormGroup>
 			<Input type="phone" name="co_phone" id="coPhone" placeholder="Phone (For Shipping Updates)" />
-		</FormGroup>
+        </FormGroup>
+        <ButtonGroup>
+          <Button>Edit</Button>
+          <Button>Save</Button>
+        </ButtonGroup>
       </Form>
     );
   }

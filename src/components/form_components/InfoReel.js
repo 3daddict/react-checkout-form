@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import { Container, Col, Row } from "reactstrap";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import NintyDaysBadge from '../../assets/images/90-day_2018.png';
 import FastShippingBadge from '../../assets/images/cob-badge-fast-shipping@2x.png'
 import SecureOrderingBadge from '../../assets/images/cob-badge-secure-ordering@2x.png'
 import Avatar1 from '../../assets/images/avatar-1.PNG'
 import Avatar2 from '../../assets/images/avatar-2.PNG'
 import Avatar3 from '../../assets/images/avatar-3.PNG'
+import { faStar } from '@fortawesome/free-solid-svg-icons'
 
 
 export default class InfoReel extends Component {
@@ -65,11 +67,11 @@ export default class InfoReel extends Component {
                 <div className="review-container">
                     <p className="title-p"><strong>Awesome price and fast delivery</strong></p>
                     <div className="star-rate">
-                        <span className="fa fa-star checked"></span>
-                        <span className="fa fa-star checked"></span>
-                        <span className="fa fa-star checked"></span>
-                        <span className="fa fa-star checked"></span>
-                        <span className="fa fa-star checked"></span>
+                        <FontAwesomeIcon icon={faStar} />
+                        <FontAwesomeIcon icon={faStar} />
+                        <FontAwesomeIcon icon={faStar} />
+                        <FontAwesomeIcon icon={faStar} />
+                        <FontAwesomeIcon icon={faStar} />
                     </div>
                     <div className="co-verified-buyer">
                         <span className="text-danger">Verified Buyer</span>
@@ -91,11 +93,11 @@ export default class InfoReel extends Component {
                 <div className="review-container">
                     <p className="title-p"><strong>Nice customer service</strong></p>
                     <div className="star-rate">
-                        <span className="fa fa-star checked"></span>
-                        <span className="fa fa-star checked"></span>
-                        <span className="fa fa-star checked"></span>
-                        <span className="fa fa-star checked"></span>
-                        <span className="fa fa-star checked"></span>
+                        <FontAwesomeIcon icon={faStar} />
+                        <FontAwesomeIcon icon={faStar} />
+                        <FontAwesomeIcon icon={faStar} />
+                        <FontAwesomeIcon icon={faStar} />
+                        <FontAwesomeIcon icon={faStar} />
                     </div>
                     <div className="co-verified-buyer">
                         <span className="text-danger">Verified Buyer</span>
@@ -117,11 +119,11 @@ export default class InfoReel extends Component {
                 <div className="review-container">
                     <p className="title-p"><strong>Good price and selection</strong></p>
                     <div className="star-rate">
-                        <span className="fa fa-star checked"></span>
-                        <span className="fa fa-star checked"></span>
-                        <span className="fa fa-star checked"></span>
-                        <span className="fa fa-star checked"></span>
-                        <span className="fa fa-star checked"></span>
+                        <FontAwesomeIcon icon={faStar} />
+                        <FontAwesomeIcon icon={faStar} />
+                        <FontAwesomeIcon icon={faStar} />
+                        <FontAwesomeIcon icon={faStar} />
+                        <FontAwesomeIcon icon={faStar} />
                     </div>
                     <div className="co-verified-buyer">
                         <span className="text-danger">Verified Buyer</span>

@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import { Container, Col, Row } from "reactstrap";
-import NintyDaysBadge from '../../assets/images/90-day_2018.png';
-import FastShippingBadge from '../../assets/images/cob-badge-fast-shipping@2x.png'
-import SecureOrderingBadge from '../../assets/images/cob-badge-secure-ordering@2x.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import MoneyBackBadge from '../../assets/images/money-back-guarantee-badge.png';
+import FastShippingBadge from '../../assets/images/fast-shipping-badge.png'
+import SecureCheckoutBadge from '../../assets/images/secure-checkout-badge.png'
 import Avatar1 from '../../assets/images/avatar-1.PNG'
 import Avatar2 from '../../assets/images/avatar-2.PNG'
 import Avatar3 from '../../assets/images/avatar-3.PNG'
+import { faStar } from '@fortawesome/free-solid-svg-icons'
 
 
 export default class InfoReel extends Component {
@@ -19,7 +21,7 @@ export default class InfoReel extends Component {
         <Row>
             <Col xs="3">
                 <Container className="co-badge-container">
-                    <img src={NintyDaysBadge} alt="90 days badge"/>
+                    <img src={MoneyBackBadge} alt="90 days badge"/>
                 </Container>
             </Col>
             <Col xs="9">
@@ -41,7 +43,7 @@ export default class InfoReel extends Component {
         <Row>
             <Col xs="3">
                 <Container className="co-badge-container">
-                    <img src={SecureOrderingBadge} alt="secutity badge"/>
+                    <img src={SecureCheckoutBadge} alt="secutity badge"/>
                 </Container>
             </Col>
             <Col xs="9">
@@ -56,20 +58,20 @@ export default class InfoReel extends Component {
             <span>Real Customer Reviews</span>
         </div>
         <Row>
-            <Col xs="3">
+            <Col xs="3" className="no-pr">
                 <Container className="avatar-container">
-                    <img className="img-fluid" src={Avatar1} alt="Avatar1 review thumb"/>
+                    <img className="avatar img-fluid" src={Avatar1} alt="Avatar1 review thumb"/>
                 </Container>
             </Col>
             <Col xs="9">
                 <div className="review-container">
                     <p className="title-p"><strong>Awesome price and fast delivery</strong></p>
                     <div className="star-rate">
-                        <span className="fa fa-star checked"></span>
-                        <span className="fa fa-star checked"></span>
-                        <span className="fa fa-star checked"></span>
-                        <span className="fa fa-star checked"></span>
-                        <span className="fa fa-star checked"></span>
+                        <FontAwesomeIcon icon={faStar} />
+                        <FontAwesomeIcon icon={faStar} />
+                        <FontAwesomeIcon icon={faStar} />
+                        <FontAwesomeIcon icon={faStar} />
+                        <FontAwesomeIcon icon={faStar} />
                     </div>
                     <div className="co-verified-buyer">
                         <span className="text-danger">Verified Buyer</span>
@@ -82,20 +84,20 @@ export default class InfoReel extends Component {
             </Col>
         </Row>
         <Row>
-            <Col xs="3">
+            <Col className="no-pr" xs="3">
                 <Container className="avatar-container">
-                    <img className="img-fluid" src={Avatar2} alt="Avatar2 review thumb"/>
+                    <img className="avatar img-fluid" src={Avatar2} alt="Avatar2 review thumb"/>
                 </Container>
             </Col>
             <Col xs="9">
                 <div className="review-container">
                     <p className="title-p"><strong>Nice customer service</strong></p>
                     <div className="star-rate">
-                        <span className="fa fa-star checked"></span>
-                        <span className="fa fa-star checked"></span>
-                        <span className="fa fa-star checked"></span>
-                        <span className="fa fa-star checked"></span>
-                        <span className="fa fa-star checked"></span>
+                        <FontAwesomeIcon icon={faStar} />
+                        <FontAwesomeIcon icon={faStar} />
+                        <FontAwesomeIcon icon={faStar} />
+                        <FontAwesomeIcon icon={faStar} />
+                        <FontAwesomeIcon icon={faStar} />
                     </div>
                     <div className="co-verified-buyer">
                         <span className="text-danger">Verified Buyer</span>
@@ -108,20 +110,20 @@ export default class InfoReel extends Component {
             </Col>
         </Row>
         <Row>
-            <Col xs="3">
+            <Col className="no-pr" xs="3">
                 <Container className="avatar-container">
-                    <img className="img-fluid" src={Avatar3} alt="Avatar3 review thumb"/>
+                    <img className="avatar img-fluid" src={Avatar3} alt="Avatar3 review thumb"/>
                 </Container>
             </Col>
             <Col xs="9">
                 <div className="review-container">
                     <p className="title-p"><strong>Good price and selection</strong></p>
                     <div className="star-rate">
-                        <span className="fa fa-star checked"></span>
-                        <span className="fa fa-star checked"></span>
-                        <span className="fa fa-star checked"></span>
-                        <span className="fa fa-star checked"></span>
-                        <span className="fa fa-star checked"></span>
+                        <FontAwesomeIcon icon={faStar} />
+                        <FontAwesomeIcon icon={faStar} />
+                        <FontAwesomeIcon icon={faStar} />
+                        <FontAwesomeIcon icon={faStar} />
+                        <FontAwesomeIcon icon={faStar} />
                     </div>
                     <div className="co-verified-buyer">
                         <span className="text-danger">Verified Buyer</span>

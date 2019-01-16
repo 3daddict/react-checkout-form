@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:300');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 
+
 //font variables
-$font-header: 'Lato', sans-serif;
+$font-header: 'Open Sans', sans-serif;
 $font-text: 'Source Sans Pro', sans-serif;
 $text-dark: #222;
 $text-light: #eee;
@@ -89,6 +90,15 @@ p {
         vertical-align: middle;
         max-width: 15px;
     }
+
+    .contact-info-container {
+            .button-right {
+                display: block;
+                text-align: right
+            }
+
+    }
+
     .shipping-methods-container {
         margin-top: 25px;
         p {
@@ -160,6 +170,13 @@ p {
     .sc-bwzfXH {
         border: 1px solid #ced4da;
     }
+    .billing-container {
+        .button-right {
+            display: block;
+            text-align: right;
+            margin-bottom: 1em;
+        }
+    }
 
 }
 
@@ -169,9 +186,13 @@ p {
         h5, h6, p, a {
             font-size: 14px;
         }
-        .media {
+        .media-body {
             position: relative;
-            max-width: 3.5em;
+            min-width: 60px;
+            max-width: 100px;
+            margin-right: 1em;
+            margin-bottom: 1em;
+
         }
         .media-count {
             position: absolute;
@@ -198,7 +219,7 @@ p {
             max-width: 80px;
             padding: 0;
             img {
-                margin-top: 10px;
+                margin-bottom: 10px;
                 width: 100%;
             }
         }
@@ -219,8 +240,19 @@ p {
             }
         }
     }
+    .no-pr {
+        padding-right: 0;
+        padding-left: 0;
+    }
     .avatar-container {
-        max-width: 150px;
+        padding: 0;
+        margin-bottom: 1em;
+        text-align: center;
+        .avatar {
+            max-width: 80px;
+            border-radius: 50%;
+            box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 2px 0px ;
+        }
     }
     
 }

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Container, Col, Row, Form, FormGroup, Input, Label, ListGroup, ListGroupItem } from "reactstrap";
+import { Alert, Button, Container, Col, Row, Form, FormGroup, Input, Label, ListGroup, ListGroupItem } from "reactstrap";
 import Toggle from "../Toggle";
 import CountryOptions from './input_options/countryOptions';
 import StateOptions from './input_options/stateOptions';
@@ -28,7 +28,17 @@ export default class Billing extends Component {
     const content = this.state.checked 
       ? 
       <Form>
-      <FormGroup>
+        <Toggle>
+				{({ on, off, toggle }) => (
+					<div className="toggle-container">
+						{on && <div>
+							<Alert color="success">You contact info has been saved.</Alert>
+							<div className="button-right">
+								<Button onClick={toggle} color="secondary">Edit</Button>
+							</div>
+						</div>}
+						{off && <div>
+							<FormGroup>
         <Input
           type="email"
           name="co_bil_email"
@@ -136,11 +146,18 @@ export default class Billing extends Component {
           placeholder="Phone (For Shipping Updates)"
         />
       </FormGroup>
+							<div className="button-right">
+								<Button onClick={toggle} color="primary">Save</Button>
+							</div>
+						</div>}
+					</div>
+				)}
+			</Toggle>
     </Form>
       : null;
 
     return (
-      <Container>
+      <Container className="billing-container">
         <Row className="container-fluid co-title-row">
           <h2>Billing Address</h2>
         </Row>

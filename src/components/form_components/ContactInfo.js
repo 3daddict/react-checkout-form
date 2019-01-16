@@ -8,7 +8,7 @@ import PlusIcon from '../../assets/images/_ionicons_svg_md-add.png';
 export default class FormContactInfo extends React.Component {
   render() {
     return (
-      <Form className="container-fluid">
+      <Form className="container-fluid contact-info-container">
         <h2 className="mb-3">Contact Information</h2>
         <FormGroup>
           <Input type="email" name="co_email" id="coContactEmail" placeholder="Email (For Order Confirmation)" />
@@ -65,8 +65,8 @@ export default class FormContactInfo extends React.Component {
 			<Input type="phone" name="co_phone" id="coPhone" placeholder="Phone (For Shipping Updates)" />
         </FormGroup>
         <ButtonGroup>
-          <Button>Edit</Button>
-          <Button>Save</Button>
+          <Button color="secondary">Edit</Button>
+          <Button color="primary">Save</Button>
         </ButtonGroup>
       </Form>
     );

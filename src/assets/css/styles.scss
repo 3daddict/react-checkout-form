@@ -89,6 +89,14 @@ p {
         vertical-align: middle;
         max-width: 15px;
     }
+
+    .contact-info-container {
+        .btn-group {
+            display: block;
+            text-align: right
+        }
+    }
+
     .shipping-methods-container {
         margin-top: 25px;
         p {

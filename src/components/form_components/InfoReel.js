@@ -60,7 +60,7 @@ export default class InfoReel extends Component {
         <Row>
             <Col xs="3" className="no-pr">
                 <Container className="avatar-container">
-                    <img className="img-fluid" src={Avatar1} alt="Avatar1 review thumb"/>
+                    <img className="avatar img-fluid" src={Avatar1} alt="Avatar1 review thumb"/>
                 </Container>
             </Col>
             <Col xs="9">
@@ -86,7 +86,7 @@ export default class InfoReel extends Component {
         <Row>
             <Col className="no-pr" xs="3">
                 <Container className="avatar-container">
-                    <img className="img-fluid" src={Avatar2} alt="Avatar2 review thumb"/>
+                    <img className="avatar img-fluid" src={Avatar2} alt="Avatar2 review thumb"/>
                 </Container>
             </Col>
             <Col xs="9">
@@ -112,7 +112,7 @@ export default class InfoReel extends Component {
         <Row>
             <Col className="no-pr" xs="3">
                 <Container className="avatar-container">
-                    <img className="img-fluid" src={Avatar3} alt="Avatar3 review thumb"/>
+                    <img className="avatar img-fluid" src={Avatar3} alt="Avatar3 review thumb"/>
                 </Container>
             </Col>
             <Col xs="9">

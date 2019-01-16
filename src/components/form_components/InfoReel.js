@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Container, Col, Row } from "reactstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import NintyDaysBadge from '../../assets/images/90-day_2018.png';
-import FastShippingBadge from '../../assets/images/cob-badge-fast-shipping@2x.png'
-import SecureOrderingBadge from '../../assets/images/cob-badge-secure-ordering@2x.png'
+import MoneyBackBadge from '../../assets/images/money-back-guarantee-badge.png';
+import FastShippingBadge from '../../assets/images/fast-shipping-badge.png'
+import SecureCheckoutBadge from '../../assets/images/secure-checkout-badge.png'
 import Avatar1 from '../../assets/images/avatar-1.PNG'
 import Avatar2 from '../../assets/images/avatar-2.PNG'
 import Avatar3 from '../../assets/images/avatar-3.PNG'
@@ -21,7 +21,7 @@ export default class InfoReel extends Component {
         <Row>
             <Col xs="3">
                 <Container className="co-badge-container">
-                    <img src={NintyDaysBadge} alt="90 days badge"/>
+                    <img src={MoneyBackBadge} alt="90 days badge"/>
                 </Container>
             </Col>
             <Col xs="9">
@@ -43,7 +43,7 @@ export default class InfoReel extends Component {
         <Row>
             <Col xs="3">
                 <Container className="co-badge-container">
-                    <img src={SecureOrderingBadge} alt="secutity badge"/>
+                    <img src={SecureCheckoutBadge} alt="secutity badge"/>
                 </Container>
             </Col>
             <Col xs="9">

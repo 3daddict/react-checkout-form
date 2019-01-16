@@ -185,9 +185,13 @@ p {
         h5, h6, p, a {
             font-size: 14px;
         }
-        .media {
+        .media-body {
             position: relative;
-            max-width: 3.5em;
+            min-width: 60px;
+            max-width: 100px;
+            margin-right: 1em;
+            margin-bottom: 1em;
+
         }
         .media-count {
             position: absolute;
@@ -235,8 +239,17 @@ p {
             }
         }
     }
+    .no-pr {
+        padding-right: 0;
+        padding-left: 0;
+    }
     .avatar-container {
-        max-width: 150px;
+        padding: 0;
+        margin-bottom: 1em;
+        img {
+            border-radius: 50%;
+            box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 2px 0px ;
+        }
     }
     
 }

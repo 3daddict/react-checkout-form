@@ -35,16 +35,17 @@ export default class CartDetails extends Component {
                   <Row>
                     <Col xs="9">
                       <div className="media">
+                      <div className="media-body">
                         <img
                           src={PiImg}
                           className="img-fluid mr-3"
                           alt="raspberry pi"
                         />
-                        <div className="media-body">
+                        </div>
                           <h5 className="mt-0">
                             Raspberry Pi 3 Model B Motherboard
                           </h5>
-                        </div>
+                        
                       </div>
                       <div className="media-count">
                         <p>1</p>
@@ -60,16 +61,16 @@ export default class CartDetails extends Component {
                   <Row>
                     <Col xs="9">
                       <div className="media">
+					  <div className="media-body">
                         <img
                           src={PiLcdImg}
                           className="img-fluid mr-3"
                           alt="pi lcd"
                         />
-                        <div className="media-body">
+                        </div>
                           <h5 className="mt-0">
                             Raspberry Pi 7" Touchscreen Display
                           </h5>
-                        </div>
                       </div>
                       <div className="media-count">
                         <p>1</p>

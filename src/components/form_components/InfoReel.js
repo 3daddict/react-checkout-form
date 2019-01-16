@@ -58,7 +58,7 @@ export default class InfoReel extends Component {
             <span>Real Customer Reviews</span>
         </div>
         <Row>
-            <Col xs="3">
+            <Col xs="3" className="no-pr">
                 <Container className="avatar-container">
                     <img className="img-fluid" src={Avatar1} alt="Avatar1 review thumb"/>
                 </Container>
@@ -84,7 +84,7 @@ export default class InfoReel extends Component {
             </Col>
         </Row>
         <Row>
-            <Col xs="3">
+            <Col className="no-pr" xs="3">
                 <Container className="avatar-container">
                     <img className="img-fluid" src={Avatar2} alt="Avatar2 review thumb"/>
                 </Container>
@@ -110,7 +110,7 @@ export default class InfoReel extends Component {
             </Col>
         </Row>
         <Row>
-            <Col xs="3">
+            <Col className="no-pr" xs="3">
                 <Container className="avatar-container">
                     <img className="img-fluid" src={Avatar3} alt="Avatar3 review thumb"/>
                 </Container>

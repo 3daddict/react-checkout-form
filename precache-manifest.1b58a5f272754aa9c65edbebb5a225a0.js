@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/react-checkout-form/static/media/money-back-guarantee-badge.072e98c2.png"
   },
   {
-    "revision": "c7d628e7357c9cf31bbd",
+    "revision": "f6d31eed45590a01dcd6",
     "url": "/react-checkout-form/static/css/main.de17f356.chunk.css"
   },
   {
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/react-checkout-form/static/media/Raspberry_Pi_LCD.035fc8d0.png"
   },
   {
-    "revision": "c7d628e7357c9cf31bbd",
-    "url": "/react-checkout-form/static/js/main.c7d628e7.chunk.js"
+    "revision": "f6d31eed45590a01dcd6",
+    "url": "/react-checkout-form/static/js/main.f6d31eed.chunk.js"
   },
   {
     "revision": "9d9e1a6c105c6a297b65a55f5562f191",
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/react-checkout-form/static/css/1.1dddb0d9.chunk.css"
   },
   {
-    "revision": "3fd50c403678b730ec596e1a30fc210d",
+    "revision": "31d87e30ed1d6d6a2959ad52fe10ece0",
     "url": "/react-checkout-form/index.html"
   }
 ];

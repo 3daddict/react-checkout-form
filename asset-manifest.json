@@ -1,7 +1,7 @@
 {
   "main.css": "/react-checkout-form/static/css/main.de17f356.chunk.css",
-  "main.js": "/react-checkout-form/static/js/main.c7d628e7.chunk.js",
-  "main.js.map": "/react-checkout-form/static/js/main.c7d628e7.chunk.js.map",
+  "main.js": "/react-checkout-form/static/js/main.f6d31eed.chunk.js",
+  "main.js.map": "/react-checkout-form/static/js/main.f6d31eed.chunk.js.map",
   "static/css/1.1dddb0d9.chunk.css": "/react-checkout-form/static/css/1.1dddb0d9.chunk.css",
   "static/js/1.2637d7a9.chunk.js": "/react-checkout-form/static/js/1.2637d7a9.chunk.js",
   "static/js/1.2637d7a9.chunk.js.map": "/react-checkout-form/static/js/1.2637d7a9.chunk.js.map",
@@ -15,9 +15,9 @@
   "static/media/avatar-2.PNG": "/react-checkout-form/static/media/avatar-2.93eba42b.PNG",
   "static/media/avatar-3.PNG": "/react-checkout-form/static/media/avatar-3.ad5085f4.PNG",
   "static/media/Raspberry_Pi_LCD.png": "/react-checkout-form/static/media/Raspberry_Pi_LCD.035fc8d0.png",
-  "static/css/1.1dddb0d9.chunk.css.map": "/react-checkout-form/static/css/1.1dddb0d9.chunk.css.map",
   "static/css/main.de17f356.chunk.css.map": "/react-checkout-form/static/css/main.de17f356.chunk.css.map",
+  "static/css/1.1dddb0d9.chunk.css.map": "/react-checkout-form/static/css/1.1dddb0d9.chunk.css.map",
   "index.html": "/react-checkout-form/index.html",
-  "precache-manifest.227a5f30a8ab9036f3d8e5440ffd29c3.js": "/react-checkout-form/precache-manifest.227a5f30a8ab9036f3d8e5440ffd29c3.js",
+  "precache-manifest.1b58a5f272754aa9c65edbebb5a225a0.js": "/react-checkout-form/precache-manifest.1b58a5f272754aa9c65edbebb5a225a0.js",
   "service-worker.js": "/react-checkout-form/service-worker.js"
 }

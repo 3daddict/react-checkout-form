@@ -102,7 +102,7 @@ export default class CartDetails extends Component {
             <Col xs="3">
               <h6>
                 {shippingTotal !== 0 ? (
-                  Number(this.props.data)
+                  "$" + Number(this.props.data)
                 ) : (
                   <span>--</span>
                 )}

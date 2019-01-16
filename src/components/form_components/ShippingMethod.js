@@ -75,10 +75,6 @@ class ShippingMethod extends Component {
                                 </Container>
                         </FormGroup>
                         </ListGroupItem>
-                            <div className="text-right mt-1">
-                                <a className="apply-link p-xs" href="/">Apply</a>
-                                <p className="mt-1 lead p-xs">*Must click apply to update total</p>
-                            </div>
                         </FormGroup>
                         
                     </ListGroup>

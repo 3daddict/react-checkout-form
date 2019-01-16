@@ -91,10 +91,11 @@ p {
     }
 
     .contact-info-container {
-        .btn-group {
-            display: block;
-            text-align: right
-        }
+            .button-right {
+                display: block;
+                text-align: right
+            }
+
     }
 
     .shipping-methods-container {

@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Row, Form, FormGroup, Input, Label, Button, ButtonGroup } from "reactstrap";
+import { Alert, Col, Row, Form, FormGroup, Input, Label, Button, ButtonGroup } from "reactstrap";
 import Toggle from '../Toggle';
 import CountryOptions from './input_options/countryOptions';
 import StateOptions from './input_options/stateOptions';
@@ -10,7 +10,20 @@ export default class FormContactInfo extends React.Component {
     return (
       <Form className="container-fluid contact-info-container">
         <h2 className="mb-3">Contact Information</h2>
-        <FormGroup>
+        {/* START */}
+        
+        {/* END */}
+		<Toggle>
+            {({ on, off, toggle }) => (
+            <div className="toggle-container">
+                {on && <div>
+						<Alert color="success">You contact info has been saved.</Alert>
+						<div className="button-right">
+							<Button onClick={toggle} color="secondary">Edit</Button>
+						</div>
+					</div>}
+                {off && <div>
+					<FormGroup>
           <Input type="email" name="co_email" id="coContactEmail" placeholder="Email (For Order Confirmation)" />
         </FormGroup>
         <Row form>
@@ -64,10 +77,15 @@ export default class FormContactInfo extends React.Component {
 		<FormGroup>
 			<Input type="phone" name="co_phone" id="coPhone" placeholder="Phone (For Shipping Updates)" />
         </FormGroup>
-        <ButtonGroup>
-          <Button color="secondary">Edit</Button>
-          <Button color="primary">Save</Button>
-        </ButtonGroup>
+						<div className="button-right">
+							<Button onClick={toggle} color="primary">Save</Button>
+						</div>
+				</div>}
+            </div>
+			
+			)}
+			
+            </Toggle>
       </Form>
     );
   }
